@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'GraphHopperRouteOptimization_Example' do
+  pod 'GraphHopperRouteOptimization', :path => '../'
+
+  target 'GraphHopperRouteOptimization_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
