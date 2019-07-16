@@ -1,0 +1,16 @@
+PODS:
+  - GraphHopperRouteOptimization (0.1.0)
+
+DEPENDENCIES:
+  - GraphHopperRouteOptimization (from `../`)
+
+EXTERNAL SOURCES:
+  GraphHopperRouteOptimization:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  GraphHopperRouteOptimization: c665eba65914db19fb7bd1d0ae97f6defd6c3799
+
+PODFILE CHECKSUM: d3abc7ba260fa9ba75f3212512337037f343f59e
+
+COCOAPODS: 1.6.1

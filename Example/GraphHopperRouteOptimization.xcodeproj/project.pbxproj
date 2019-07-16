@@ -28,12 +28,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		19F1206C217D71BD6E10017B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		2EE259AC2769388E603BDC46 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		19F1206C217D71BD6E10017B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		2EE259AC2769388E603BDC46 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		3970E260AFD218D2383C611E /* Pods-GraphHopperRouteOptimization_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GraphHopperRouteOptimization_Tests.debug.xcconfig"; path = "Target Support Files/Pods-GraphHopperRouteOptimization_Tests/Pods-GraphHopperRouteOptimization_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		440033D88FBADB437F986781 /* Pods_GraphHopperRouteOptimization_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GraphHopperRouteOptimization_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		48A6C3C3F1718C5AE8825988 /* Pods_GraphHopperRouteOptimization_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GraphHopperRouteOptimization_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5500FE023C07258C26F60AB8 /* GraphHopperRouteOptimization.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = GraphHopperRouteOptimization.podspec; path = ../GraphHopperRouteOptimization.podspec; sourceTree = "<group>"; };
+		5500FE023C07258C26F60AB8 /* GraphHopperRouteOptimization.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = GraphHopperRouteOptimization.podspec; path = ../GraphHopperRouteOptimization.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		5CD3BC4214A39C21CE86AD08 /* Pods-GraphHopperRouteOptimization_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GraphHopperRouteOptimization_Tests.release.xcconfig"; path = "Target Support Files/Pods-GraphHopperRouteOptimization_Tests/Pods-GraphHopperRouteOptimization_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* GraphHopperRouteOptimization_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GraphHopperRouteOptimization_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -147,7 +147,6 @@
 				3970E260AFD218D2383C611E /* Pods-GraphHopperRouteOptimization_Tests.debug.xcconfig */,
 				5CD3BC4214A39C21CE86AD08 /* Pods-GraphHopperRouteOptimization_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

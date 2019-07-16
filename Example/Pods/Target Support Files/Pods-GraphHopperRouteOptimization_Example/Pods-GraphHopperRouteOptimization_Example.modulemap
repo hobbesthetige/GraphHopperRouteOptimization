@@ -1,0 +1,6 @@
+framework module Pods_GraphHopperRouteOptimization_Example {
+  umbrella header "Pods-GraphHopperRouteOptimization_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

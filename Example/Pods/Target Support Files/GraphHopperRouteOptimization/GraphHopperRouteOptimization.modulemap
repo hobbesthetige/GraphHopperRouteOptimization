@@ -1,0 +1,6 @@
+framework module GraphHopperRouteOptimization {
+  umbrella header "GraphHopperRouteOptimization-umbrella.h"
+
+  export *
+  module * { export * }
+}
